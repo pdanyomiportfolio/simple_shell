@@ -40,6 +40,8 @@ int is_delim(char c, char *delim)
  *Return: 1 if c is alphabetic, 0 otherwise
  */
 
+
+
 int _isalpha(int c)
 
 {
@@ -58,6 +60,8 @@ int _isalpha(int c)
  *@s: the string to be converted
  *Return: 0 if no numbers in string, converted number otherwise
  */
+
+
 
 int _atoi(char *s)
 
@@ -106,6 +110,8 @@ int _atoi(char *s)
 	else
 
 		output = result;
+
+
 
 	return (output);
 
