@@ -40,8 +40,6 @@ int is_delim(char c, char *delim)
  *Return: 1 if c is alphabetic, 0 otherwise
  */
 
-
-
 int _isalpha(int c)
 
 {
